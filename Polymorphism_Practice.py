@@ -39,7 +39,7 @@ class Spanish(Language):
 if __name__ == "__main__":
 
     #Both of the child classes have the same function (say_hello).
-    #But each one prints something different.
+    #But each langauge prints something completely different.
     french = French()
     print(french.information())
     print(french.say_hello())
