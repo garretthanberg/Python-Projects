@@ -12,7 +12,7 @@ class Airplane(Vehicle):
     Avionics_Switch = 'On'
 
 #This is the second child class adding on two of its own attributes.
-class Motorcycle(Vehicle):
+class Helicopter(Vehicle):
     Number_of_Blades = 7
     Carburetor_Heat = 'Off'
     
