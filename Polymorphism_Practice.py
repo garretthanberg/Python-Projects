@@ -2,11 +2,12 @@
 #This is the parent class.
 class Language:
     def __init__(self):
+        self.Name = 'Unknown'
         self.Origin = 'Unknown'
         self.First_Recorded_Year_of_Use = 'Unknown'
 
     def information(self):
-        msg = '\nOrigin: {}\nFirst Recorded Year of Use: {}'.format(self.Origin,self.First_Recorded_Year_of_Use)
+        msg = '\nName: {}\nOrigin: {}\nFirst Recorded Year of Use: {}'.format(self.Name,self.Origin,self.First_Recorded_Year_of_Use)
         return msg
 
     def say_hello(self):
@@ -17,6 +18,7 @@ class Language:
 class French(Language):
     def __init__(self):
         super().__init__()
+        self.Name = 'French'
         self.Origin = 'France'
         self.First_Recorded_Year_of_Use = 842
     
@@ -28,6 +30,7 @@ class French(Language):
 class Spanish(Language):
     def __init__(self):
         super().__init__()
+        self.Name = 'Spanish'
         self.Origin = 'Iberian Peninsula'
         self.First_Recorded_Year_of_Use = 1492
     
