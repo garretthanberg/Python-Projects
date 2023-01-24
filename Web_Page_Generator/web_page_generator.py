@@ -19,7 +19,7 @@ class ParentWindow(Frame):
         self.btn = Button(self.master, text="Default HTML Page", width=30, height=2, command=self.defaultHTML)
         self.btn.grid(row=2, column=2)
 
-        self.btn2 = Button(self.master, text="Default HTML Page", width=30, height=2, command=self.customHTML)
+        self.btn2 = Button(self.master, text="Custom HTML Page", width=30, height=2, command=self.customHTML)
         self.btn2.grid(row=2, column=3)
 
 
