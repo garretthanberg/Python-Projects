@@ -1,5 +1,5 @@
 # Python-Projects
-This repository hosts a collection of basic projects developed using Python, leveraging various modules such as tkinter and sqlite3 to enhance their functionality.
+This repository hosts a collection of projects developed using Python, leveraging various modules such as tkinter and sqlite3 to enhance their functionality.
 
 Phonebook:
 Immerse yourself in the experience of a digital phonebook with this Python project. Built using tkinter for the graphical user interface, it enables users to save and manage contact information seamlessly. The application stores contact details, including names, email addresses, and phone numbers, in a database. Users can conveniently update and delete existing entries, ensuring that their contact information remains organized and easily accessible.
